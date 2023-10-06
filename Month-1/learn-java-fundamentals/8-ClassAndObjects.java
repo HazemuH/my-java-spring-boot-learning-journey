@@ -1,39 +1,46 @@
 public class ClassAndObjects {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        // Create Cat objects and initialize them using constructors
+        Cat cat1 = new Cat("Charlie", 5, "meooowwwww meowwww");
+        Cat cat2 = new Cat("George", 3, "mauuuww mauuwww");
 
-        // u can create an object like you declaring variable, you can use it as much as u want.
-        // but first, you must define a class that containe all variables in it to describe your class
-
-        Cat Cat1 = new Cat();
-        Cat1.name = "Charlie";
-        Cat1.weight = 5;
-        Cat1.sounds = "meooowwwww meowwww";
-
-        Cat Cat2 = new Cat();
-        Cat2.name = "George";
-        Cat2.weight = 3;
-        Cat2.sounds = "mauuuww mauuwww";
-
-
-        System.out.println("I have a Cat named : "+Cat1.name);
-        System.out.println("his weight is " +Cat1.weight+"kg");
-        System.out.println("and he makes a sound like "+Cat1.sounds);
+        System.out.println("I have a Cat named: " + cat1.getName());
+        System.out.println("His weight is " + cat1.getWeight() + " kg");
+        System.out.println("And he makes a sound like " + cat1.getSounds());
 
         System.out.println();
 
-        System.out.println("My 2nd Cat named : "+Cat2.name);
-        System.out.println("his weight is " +Cat2.weight+"kg");
-        System.out.println("and he makes a sound like "+Cat2.sounds);
+        System.out.println("My 2nd Cat named: " + cat2.getName());
+        System.out.println("His weight is " + cat2.getWeight() + " kg");
+        System.out.println("And he makes a sound like " + cat2.getSounds());
 
         System.out.println();
 
-        System.out.println("I love "+Cat1.name+" "+"& "+Cat2.name);
+        System.out.println("I love " + cat1.getName() + " & " + cat2.getName());
     }
 }
 
-//this is the constructor class
 public class Cat {
-    String name;
-    Integer weight;
-    String sounds;
+    private String name;
+    private int weight;
+    private String sounds;
+
+    public Cat(String name, int weight, String sounds) {
+        this.name = name;
+        this.weight = weight;
+        this.sounds = sounds;
+    }
+
+    // Getter methods
+    public String getName() {
+        return name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public String getSounds() {
+        return sounds;
+    }
 }
