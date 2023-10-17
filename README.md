@@ -16,8 +16,8 @@ This repository serves as a record of my learning experiences and progress in Ja
 
 Here you'll find a collection of Spring Boot projects I've worked on during my learning journey. Each project has its own dedicated directory with a README providing project-specific details.
 
-- [Project 1](./projects/project1/): Description of Project 1.
-- [Project 2](./projects/project2/): Description of Project 2.
+- [SpringBoot Starting Template](../Template_SpringBoot_Haikal/): I tried to create my starting Spring Boot template as a starter pack for my Spring Boot projects.
+- [Simple CRUD and create Report](../mini-project-springboot-api): This is my mini project that can manage users (CRUD), create and view transactions, and generate PDF report as a byte array format.
 
 
 ## Progress Tracker
