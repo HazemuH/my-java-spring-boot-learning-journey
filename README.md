@@ -20,16 +20,9 @@ Here you'll find a collection of Spring Boot projects I've worked on during my l
 - [Project 1](./projects/project1/): Description of Project 1.
 - [Project 2](./projects/project2/): Description of Project 2.
 
-## Tutorials
-
-In this section, you can access step-by-step tutorials covering various Spring Boot topics. These tutorials are designed to help you learn and implement Spring Boot concepts effectively.
-
-- [Tutorial 1](./tutorials/tutorial1/): Title of Tutorial 1.
-- [Tutorial 2](./tutorials/tutorial2/): Title of Tutorial 2.
 
 ## Progress Tracker
 
 I'm constantly learning and growing, and this section serves as a progress tracker. You can follow along as I document my milestones, discoveries, and lessons learned.
 
-- [Month 1](./progress/month1.md): Summary of the first month.
-- [Month 2](./progress/month2.md): Summary of the second month.
+- [Learning Java Fundamentals](./learn-java-fundamentals): In this section i try to learn basics in java programming language.
