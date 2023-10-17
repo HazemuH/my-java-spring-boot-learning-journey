@@ -10,7 +10,7 @@ Welcome to my personal repository where I document my journey into the world of 
 
 ## Introduction
 
-This repository serves as a record of my learning experiences and progress in Java Spring Boot. I'm excited to share my journey with you and hope that you find the content here both informative and inspiring. Feel free to explore the projects, tutorials, and updates.
+This repository serves as a record of my learning experiences and progress in Java Spring Boot. I'm excited to share my journey with you and hope that you find the content here both informative and inspiring. Feel free to explore the projects and updates.
 
 ## Projects
 
