@@ -6,7 +6,6 @@ Welcome to my personal repository where I document my journey into the world of 
 
 - [Introduction](#introduction)
 - [Projects](#projects)
-- [Tutorials](#tutorials)
 - [Progress Tracker](#progress-tracker)
 
 ## Introduction
